@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
 <!-- content -->
-<div class="container" id="home" class="tabcontent">
+<div class="container center" id="home">
     Olá Mundo!
 </div>
 

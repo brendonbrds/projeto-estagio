@@ -1,6 +1,6 @@
 <script src="models/read-all-agenda.js"></script>
 <script src="models/read-one-agenda.js"></script>
-<div class="content-consultas">
+<div class="content-main">
     <div class="container">
         <h5>Agendamentos</h5>
         <div class="row" style="display:flex;flex-direction:row;flex-wrap:wrap;align-items: center;justify-content: space-between;">
