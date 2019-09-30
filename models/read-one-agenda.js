@@ -19,23 +19,23 @@ $(document).ready(function () {
                     // motivo de n cancelamento seria o pq n foi a consulta na data marcada sem aviso previo
 
                     var data =
-                        "ID:<br>" + "<input type='text' class='inpCor' id='idItem' style='color:#626262' value='" + id + "' " + "readonly />" + "<br><br>"
-                        + "<b>Data e hora:</b><br>" + "<input type='text' class='inpCor' id='titleUpdate' style='color:#626262' value='" + dataHora + "' " + "/>" + "<br><br>"
-                        + "<b>Medico:</b><br>" + "<input type='text' class='inpCor' id='bodyUpdate' style='color:#626262' value='" + medico + "' " + "/>" + "<br><br>"
-                        + "<b>Especialidade:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='" + esp + "' " + "/>" + "<br><br>"
-                        + "<b>Paciente:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='" + paciente + "' " + "/>" + "<br><br>";
-                        
+                        "ID:<br>" + "<input type='text' class='inpCor' id='idItem' style='color:#626262' value='" + id + "' " + "readonly />" + "<br><br>" +
+                        "<b>Data e hora:</b><br>" + "<input type='text' class='inpCor' id='titleUpdate' style='color:#626262' value='" + dataHora + "' " + "/>" + "<br><br>" +
+                        "<b>Medico:</b><br>" + "<input type='text' class='inpCor' id='bodyUpdate' style='color:#626262' value='" + medico + "' " + "/>" + "<br><br>" +
+                        "<b>Especialidade:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='" + esp + "' " + "/>" + "<br><br>" +
+                        "<b>Paciente:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='" + paciente + "' " + "/>" + "<br><br>";
+
 
                     if (atendido === true) {
-                        + "<b>Atendido:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='Sim' " + "/>" + "<br><br>"
+                        +"<b>Atendido:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='Sim' " + "/>" + "<br><br>"
                     } else {
-                        + "<b>Atendido:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='Nao' " + "/>" + "<br><br>"
+                        +"<b>Atendido:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='Nao' " + "/>" + "<br><br>"
                     }
                     if ($.trim(mtv_cancel).length > 0) {
-                        + "<b>Motivo do cancelamento:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='"+mtv_cancel+"' " + "/>" + "<br><br>"
+                        +"<b>Motivo do cancelamento:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='" + mtv_cancel + "' " + "/>" + "<br><br>"
                     }
                     if ($.trim(mtv_natendido).length > 0) {
-                        + "<b>Motivo do cancelamento:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='"+mtv_natendido+"' " + "/>" + "<br><br>";
+                        +"<b>Motivo do cancelamento:</b><br>" + "<input type='text' class='inpCor' id='authorUpdate' style='color:#626262' value='" + mtv_natendido + "' " + "/>" + "<br><br>";
                     }
                     result = data;
 

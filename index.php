@@ -2,7 +2,9 @@
 
 <!-- content -->
 <div class="container center" id="home">
-    Olá Mundo!
+    <div class="content-main">
+        Olá Mundo!
+    </div>
 </div>
 
 <?php include "includes/footer.php" ?>
