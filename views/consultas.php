@@ -28,6 +28,7 @@
                 <div id="listview"></div>
                 <a class="waves-effect waves-light btn-small" id="del_agend" style="display: none"><i class="material-icons left">close</i>Apagar</a>
                 <a class="waves-effect waves-light btn-small" id="cancel_agend" style="display: none"><i class="material-icons left">cancel</i>Cancelar agendamento</a>
+                <div id="result_del"></div>
             </div>
         </div>
     </div>
