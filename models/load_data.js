@@ -31,7 +31,7 @@ function resetCombom(cm) {
     var option = document.createElement('option');
     $(option).attr({
         value: "0"
-    });    
+    });
     $(option).append('Escolher');
     $("select[name='" + cm + "']").append(option);
     $("select[name='" + cm + "']").css("display", "block");
@@ -72,7 +72,7 @@ function resetCombo(cp) {
     var option = document.createElement('option');
     $(option).attr({
         value: "0"
-    });    
+    });
     $(option).append('Escolher');
     $("select[name='" + cp + "']").append(option);
     $("select[name='" + cp + "']").css("display", "block");

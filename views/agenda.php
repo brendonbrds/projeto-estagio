@@ -1,5 +1,6 @@
 <script src="models/create-agenda.js"></script>
 <script src="models/load_data.js"></script>
+<script src="models/delete-agend.js"></script>
 <div class="content-main">
     <div class="container">
 
