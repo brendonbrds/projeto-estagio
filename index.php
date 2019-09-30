@@ -2,7 +2,7 @@
 
 <!-- content -->
 <div class="container" id="home" class="tabcontent">
-    HOME aqui
+    Olá Mundo!
 </div>
 
 <?php include "includes/footer.php" ?>
