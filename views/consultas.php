@@ -1,5 +1,6 @@
 <script src="models/read-all-agenda.js"></script>
 <script src="models/read-one-agenda.js"></script>
+<script src="models/cancel-agend.js"></script>
 <div class="content-main">
     <div class="container">
         <h5>Agendamentos</h5>
@@ -19,14 +20,14 @@
                     </div>
                 </nav>
                 <div id="loading2"></div>
-                <div id="error"></div>                
+                <div id="error"></div>
             </div>
         </div>
         <div class="row">
             <div class="col s12">
                 <div id="listview"></div>
-                <a class="waves-effect waves-light btn-small" id="update" style="display: none"><i class="material-icons left">edit</i>Editar</a>
-                <a class="waves-effect waves-light btn-small" id="cancel" style="display: none"><i class="material-icons left">cancel</i>Cancelar agendamento</a>
+                <a class="waves-effect waves-light btn-small" id="del_agend" style="display: none"><i class="material-icons left">close</i>Apagar</a>
+                <a class="waves-effect waves-light btn-small" id="cancel_agend" style="display: none"><i class="material-icons left">cancel</i>Cancelar agendamento</a>
             </div>
         </div>
     </div>

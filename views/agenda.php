@@ -27,19 +27,16 @@
                     </p>
 
                     <div class="input-field col s6">
+                        <h6>Data e Hora</h6>
                         <input type="date" name="data" id="data" required>
                         <input type="time" name="hora" id="hora" required>
-                        <label>Data e Hora</label>
+
                         <button class="waves-effect waves-light btn" id="insert_agend">Pronto</button>
                         <button type="reset" class="waves-effect waves-light btn">Limpar</button>
                         <div id="loading_agend"></div>
                         <div id="result_agend"></div>
                     </div>
                 </form>
-
-
-                <a class="waves-effect waves-light btn-small" id="updatei" style="display: none"><i class="material-icons left">edit</i>Editar</a>
-                <a class="waves-effect waves-light btn-small" id="canceli" style="display: none"><i class="material-icons left">cancel</i>Cancelar agendamento</a>
             </div>
         </div>
     </div>
