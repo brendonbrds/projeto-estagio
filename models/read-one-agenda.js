@@ -14,7 +14,7 @@ $(document).ready(function () {
                     var esp = item.especialidade;
                     var paciente = item.paciente;
                     var atendido = item.atendido;
-                    var mtv_cancel = item.motivo_cancelamento;
+                    //var mtv_cancel = item.motivo_cancelamento;
                     // motivo de n cancelamento seria o pq n foi a consulta na data marcada sem aviso previo
 
                     var data =
@@ -22,16 +22,10 @@ $(document).ready(function () {
                         "<b>Data e hora:</b><br>" + "<input type='text' class='inpCor' id='dtime' style='color:#626262' value='" + dataHora + "' " + "readonly />" + "<br><br>" +
                         "<b>Medico:</b><br>" + "<input type='text' class='inpCor' id='med' style='color:#626262' value='" + medico + "' " + "readonly />" + "<br><br>" +
                         "<b>Especialidade:</b><br>" + "<input type='text' class='inpCor' id='espec' style='color:#626262' value='" + esp + "' " + "readonly />" + "<br><br>" +
-                        "<b>Paciente:</b><br>" + "<input type='text' class='inpCor' id='pac' style='color:#626262' value='" + paciente + "' " + "readonly />" + "<br><br>"
-                        +"<b>Motivo do cancelamento:</b><br>" + "<input type='text' class='inpCor' id='mtv-cancel' style='color:#626262' value='" + mtv_cancel + "' " + " />" + "<br><br>"
-                        ;
+                        "<b>Paciente:</b><br>" + "<input type='text' class='inpCor' id='pac' style='color:#626262' value='" + paciente + "' " + "readonly />" + "<br><br>" +
+                        "Opções" +
+                        "<p><label><input type='checkbox' id='check' value='"+atendido+"' /><span>Realizado</span></label>&nbsp;&nbsp;<a class='waves-effect waves-teal btn-flat' id='save'>salvar</a></p>";
 
-
-                    if (atendido === true) {
-                        +"<b>Atendido:</b><br>" + "<input type='text' class='inpCor' id='att-s' style='color:#626262' value='Sim' " + "readonly />" + "<br><br>"
-                    } else {
-                        +"<b>Atendido:</b><br>" + "<input type='text' class='inpCor' id='att-n' style='color:#626262' value='Nao' " + "readonly />" + "<br><br>"
-                    }
                     result = data;
 
                 });

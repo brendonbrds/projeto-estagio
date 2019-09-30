@@ -1,6 +1,7 @@
 <script src="models/read-all-agenda.js"></script>
 <script src="models/read-one-agenda.js"></script>
 <script src="models/cancel-agend.js"></script>
+<script src="models/update-realizado.js"></script>
 <div class="content-main">
     <div class="container">
         <h5>Agendamentos</h5>
